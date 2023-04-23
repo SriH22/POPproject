@@ -1,0 +1,112 @@
+.loginInfoChild {
+  top: 57px;
+  left: 38px;
+  width: 74px;
+  height: 70px;
+}
+.loginInfoChild,
+.policeCapIcon,
+.pop {
+  position: absolute;
+  cursor: pointer;
+}
+.pop {
+  top: 81px;
+  left: 44px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 62px;
+  height: 46px;
+}
+.policeCapIcon {
+  top: 19px;
+  left: 22px;
+  width: 84px;
+  height: 81px;
+  object-fit: cover;
+}
+.loginInfoItem {
+  position: absolute;
+  top: 130px;
+  left: 109px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 141px;
+  height: 26px;
+}
+.userName {
+  position: absolute;
+  top: 131px;
+  left: 120px;
+  display: inline-block;
+  width: 119px;
+  height: 12px;
+}
+.loginInfoInner {
+  position: absolute;
+  top: 168px;
+  left: 38px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 287px;
+  height: 211px;
+}
+.personalInformation {
+  margin: 0;
+}
+.personalInformationNameContainer {
+  position: absolute;
+  top: 187px;
+  left: 52px;
+  text-align: left;
+  display: inline-block;
+  width: 256px;
+  height: 182px;
+}
+.logOut,
+.rectangleDiv {
+  position: absolute;
+  cursor: pointer;
+}
+.rectangleDiv {
+  top: 443px;
+  left: 106px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 143px;
+  height: 47px;
+}
+.logOut {
+  top: 457px;
+  left: 85px;
+  display: inline-block;
+  width: 185px;
+  height: 19px;
+}
+.loginInfo {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background: linear-gradient(
+    180deg,
+    #735195,
+    rgba(118, 78, 141, 0.97) 37.81%,
+    rgba(152, 43, 43, 0.61) 99.42%,
+    rgba(87, 52, 90, 0.81)
+  );
+  width: 100%;
+  height: 799px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-montagu-slab);
+}

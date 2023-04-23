@@ -1,0 +1,67 @@
+.clickChild {
+  position: absolute;
+  top: 367px;
+  left: 109px;
+  width: 149px;
+  height: 147px;
+  cursor: pointer;
+}
+.dutyOfEvery,
+.pop {
+  position: absolute;
+  display: inline-block;
+}
+.pop {
+  top: 426px;
+  left: 113px;
+  color: var(--color-black);
+  width: 145px;
+  height: 73px;
+  cursor: pointer;
+}
+.dutyOfEvery {
+  top: 724px;
+  left: calc(50% - 161px);
+  font-size: var(--font-size-xl);
+  width: 321px;
+  height: 25px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.policeCapIcon {
+  position: absolute;
+  top: 285px;
+  left: 76px;
+  width: 172px;
+  height: 170px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.pointOutProblem {
+  position: absolute;
+  top: 81px;
+  left: 76px;
+  font-size: 36px;
+  display: inline-block;
+  width: 200px;
+  height: 81px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+}
+.click {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background: linear-gradient(
+    180deg,
+    #735195,
+    rgba(118, 78, 141, 0.97) 37.81%,
+    rgba(152, 43, 43, 0.61) 99.42%,
+    rgba(87, 52, 90, 0.81)
+  );
+  width: 100%;
+  height: 799px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 48px;
+  color: var(--color-white);
+  font-family: var(--font-montagu-slab);
+}

@@ -1,0 +1,31 @@
+.uploadChild {
+  position: absolute;
+  top: 17px;
+  left: 14px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-black);
+  width: 332px;
+  height: 766px;
+}
+.uploadItem {
+  position: absolute;
+  top: 669px;
+  left: 132px;
+  width: 95px;
+  height: 86px;
+  cursor: pointer;
+}
+.upload {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background: linear-gradient(
+    180deg,
+    #735195,
+    rgba(118, 78, 141, 0.97) 37.81%,
+    rgba(152, 43, 43, 0.61) 99.42%,
+    rgba(87, 52, 90, 0.81)
+  );
+  width: 100%;
+  height: 799px;
+  overflow: hidden;
+}

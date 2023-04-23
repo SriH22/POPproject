@@ -1,0 +1,96 @@
+.faqChild {
+  top: 57px;
+  left: 251px;
+  width: 74px;
+  height: 70px;
+}
+.faqChild,
+.policeCapIcon,
+.pop {
+  position: absolute;
+  cursor: pointer;
+}
+.pop {
+  top: 81px;
+  left: 257px;
+  display: inline-block;
+  width: 62px;
+  height: 46px;
+}
+.policeCapIcon {
+  top: 19px;
+  left: 235px;
+  width: 84px;
+  height: 81px;
+  object-fit: cover;
+}
+.faqItem {
+  position: absolute;
+  top: 139px;
+  left: 18px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 327px;
+  height: 638px;
+}
+.toReportA {
+  margin: 0;
+}
+.span {
+  font-size: var(--font-size-base);
+}
+.infoamanmovementorgrailway2 {
+  text-decoration: underline;
+}
+.infoamanmovementorgrailway1 {
+  color: inherit;
+}
+.infoamanmovementorgrailway {
+  margin: 0;
+  font-size: var(--font-size-mini);
+}
+.toReportAContainer {
+  position: absolute;
+  top: 152px;
+  left: 39px;
+  color: inherit;
+  white-space: pre-wrap;
+  text-align: left;
+  display: inline-block;
+  width: 281px;
+  height: 597px;
+  font-size: var(--font-size-base);
+}
+.backArrowIcon,
+.faqInner {
+  position: absolute;
+  top: 19px;
+  left: 18px;
+  width: 54px;
+  height: 55px;
+  cursor: pointer;
+}
+.backArrowIcon {
+  object-fit: cover;
+}
+.faq {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background: linear-gradient(
+    180deg,
+    #735195,
+    rgba(118, 78, 141, 0.97) 37.81%,
+    rgba(152, 43, 43, 0.61) 99.42%,
+    rgba(87, 52, 90, 0.81)
+  );
+  width: 100%;
+  height: 799px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-montagu-slab);
+}

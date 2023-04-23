@@ -1,0 +1,196 @@
+.deptChild {
+  top: 57px;
+  left: 251px;
+  width: 74px;
+  height: 70px;
+}
+.deptChild,
+.policeCapIcon,
+.pop {
+  position: absolute;
+  cursor: pointer;
+}
+.pop {
+  top: 81px;
+  left: 257px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 62px;
+  height: 46px;
+}
+.policeCapIcon {
+  top: 19px;
+  left: 235px;
+  width: 84px;
+  height: 81px;
+  object-fit: cover;
+}
+.deptItem {
+  position: absolute;
+  top: 134px;
+  left: -15px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 177px;
+  height: 49px;
+}
+.sendTo {
+  position: absolute;
+  top: 144px;
+  left: 7px;
+  text-align: left;
+  display: inline-block;
+  width: 115px;
+  height: 14px;
+}
+.doubleUpIcon {
+  position: absolute;
+  top: 127px;
+  left: 108px;
+  width: 44.09px;
+  height: 63.34px;
+  object-fit: cover;
+}
+.deptInner {
+  top: 242px;
+  left: 45px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 257px;
+  height: 46px;
+}
+.deptChild1,
+.deptInner,
+.rectangleDiv {
+  position: absolute;
+  cursor: pointer;
+}
+.rectangleDiv {
+  top: 315px;
+  left: 45px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 257px;
+  height: 46px;
+}
+.deptChild1 {
+  top: 531px;
+}
+.deptChild1,
+.deptChild2,
+.deptChild3 {
+  left: 45px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 257px;
+  height: 46px;
+}
+.deptChild2 {
+  position: absolute;
+  top: 387px;
+  cursor: pointer;
+}
+.deptChild3 {
+  top: 459px;
+}
+.deptChild3,
+.text,
+.text1 {
+  position: absolute;
+  cursor: pointer;
+}
+.text {
+  top: 252px;
+  left: 65px;
+  font-family: var(--font-microsoft-new-tai-lue);
+}
+.text1 {
+  top: 325px;
+}
+.text1,
+.text2,
+.text3 {
+  left: 65px;
+  font-family: var(--font-microsoft-new-tai-lue);
+}
+.text2 {
+  position: absolute;
+  top: 541px;
+  cursor: pointer;
+}
+.text3 {
+  top: 397px;
+}
+.municipalCorporation,
+.text3,
+.text4 {
+  position: absolute;
+  cursor: pointer;
+}
+.text4 {
+  top: 469px;
+  left: 65px;
+  font-family: var(--font-microsoft-new-tai-lue);
+}
+.municipalCorporation {
+  top: 253px;
+  left: 62px;
+  font-size: var(--font-size-lg);
+  text-align: left;
+}
+.blueCross,
+.electricityBoard,
+.fireService,
+.policeDepartment {
+  position: absolute;
+  top: 328px;
+  left: 81px;
+  font-size: var(--font-size-lg);
+  cursor: pointer;
+}
+.blueCross,
+.electricityBoard,
+.fireService {
+  top: 544px;
+  left: 121px;
+  text-align: left;
+}
+.electricityBoard,
+.fireService {
+  top: 400px;
+  left: 114px;
+}
+.electricityBoard {
+  top: 472px;
+  left: 88px;
+}
+.dept {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background: linear-gradient(
+    180deg,
+    #735195,
+    rgba(118, 78, 141, 0.97) 37.81%,
+    rgba(152, 43, 43, 0.61) 99.42%,
+    rgba(87, 52, 90, 0.81)
+  );
+  width: 100%;
+  height: 799px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-montagu-slab);
+}

@@ -1,0 +1,71 @@
+.acknowledgeChild {
+  top: 57px;
+  left: 251px;
+  width: 74px;
+  height: 70px;
+}
+.acknowledgeChild,
+.policeCapIcon,
+.pop {
+  position: absolute;
+  cursor: pointer;
+}
+.pop {
+  top: 81px;
+  left: 257px;
+  display: inline-block;
+  width: 62px;
+  height: 46px;
+}
+.policeCapIcon {
+  top: 19px;
+  left: 235px;
+  width: 84px;
+  height: 81px;
+  object-fit: cover;
+}
+.acknowledgeItem,
+.approvalIcon {
+  position: absolute;
+  top: 306px;
+  left: 89px;
+  width: 182px;
+  height: 175px;
+}
+.approvalIcon {
+  top: 333px;
+  left: 119px;
+  width: 122px;
+  height: 114px;
+  object-fit: cover;
+}
+.acknowledgeInner,
+.backArrowIcon {
+  position: absolute;
+  top: 19px;
+  left: 18px;
+  width: 54px;
+  height: 55px;
+  cursor: pointer;
+}
+.backArrowIcon {
+  object-fit: cover;
+}
+.acknowledge {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background: linear-gradient(
+    180deg,
+    #735195,
+    rgba(118, 78, 141, 0.97) 37.81%,
+    rgba(152, 43, 43, 0.61) 99.42%,
+    rgba(87, 52, 90, 0.81)
+  );
+  width: 100%;
+  height: 799px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-montagu-slab);
+}

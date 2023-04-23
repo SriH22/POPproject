@@ -1,0 +1,121 @@
+.uploadChild {
+  top: 57px;
+  left: 251px;
+  width: 74px;
+  height: 70px;
+}
+.policeCapIcon,
+.pop,
+.uploadChild {
+  position: absolute;
+  cursor: pointer;
+}
+.pop {
+  top: 81px;
+  left: 257px;
+  display: inline-block;
+  width: 62px;
+  height: 46px;
+}
+.policeCapIcon {
+  top: 19px;
+  left: 235px;
+  width: 84px;
+  height: 81px;
+  object-fit: cover;
+}
+.uploadItem {
+  position: absolute;
+  top: 195px;
+  left: 95px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 169px;
+  height: 116px;
+}
+.doubleDownIcon {
+  position: absolute;
+  top: 253px;
+  left: 149px;
+  width: 62px;
+  height: 45px;
+  object-fit: cover;
+}
+.browseDevice {
+  margin: 0;
+}
+.browseDeviceToContainer {
+  position: absolute;
+  top: 216px;
+  left: 115px;
+  font-size: var(--font-size-sm);
+  display: inline-block;
+  width: 127px;
+  height: 37px;
+}
+.uploadInner {
+  position: absolute;
+  top: 354px;
+  left: 37px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 284px;
+  height: 226px;
+}
+.leaveMessage {
+  position: absolute;
+  top: 372px;
+  left: 51px;
+  font-size: var(--font-size-sm);
+  text-align: left;
+  display: inline-block;
+  width: 129px;
+  height: 28px;
+}
+.rectangleDiv,
+.send {
+  position: absolute;
+  cursor: pointer;
+}
+.rectangleDiv {
+  top: 636px;
+  left: 60px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 237px;
+  height: 43px;
+}
+.send {
+  top: 644px;
+  left: 113px;
+  display: inline-block;
+  width: 132px;
+  height: 14px;
+}
+.upload {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background: linear-gradient(
+    180deg,
+    #735195,
+    rgba(118, 78, 141, 0.97) 37.81%,
+    rgba(152, 43, 43, 0.61) 99.42%,
+    rgba(87, 52, 90, 0.81)
+  );
+  width: 100%;
+  height: 799px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-montagu-slab);
+}
